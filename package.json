@@ -1,0 +1,26 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Sports Bracketing System",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon ./src/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-jwt": "^6.1.0",
+		"jsonwebtoken": "^8.5.1",
+		"jwt-decode": "^3.1.2",
+		"mongoose": "^6.0.14",
+		"nodemailer": "^6.7.5",
+		"path": "^0.12.7",
+		"pusher": "^5.0.0",
+		"uuid": "^8.3.2"
+	}
+}
